@@ -54,7 +54,9 @@ export const CallForParticipation = () => {
     return (
         <div className="flex justify-center">
             <div className="my-8 w-1/2 flex flex-col gap-10 justify-center">
-                <p className="text-center text-5xl">Call For Participation</p>
+                <div className="flex justify-center">
+                    <p className="text-center text-5xl">Call For Participation</p>
+                </div>
                 <div className="flex flex-col gap-2">
                     <p className="text-xl">Ihr Name</p>
                     <input value={name} onChange={(e) => setName(e.target.value)}
