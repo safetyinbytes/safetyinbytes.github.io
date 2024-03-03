@@ -3,7 +3,7 @@ import {useState} from "react";
 import {Axios} from "axios";
 import Swal from "sweetalert2";
 
-export const CallForPapers = () => {
+export const CallForParticipation = () => {
     const [turnstileToken, setTurnstileToken] = useState<string | undefined>(undefined)
 
     const [name, setName] = useState('');

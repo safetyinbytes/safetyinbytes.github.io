@@ -2,17 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {Index} from "./pages/Index";
-import {CallForPapers} from "./pages/CallForPapers";
+import {CallForParticipation} from "./pages/CallForParticipation";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Index />
-    },
-    {
-        path: "/call-for-participation",
-        element: <CallForPapers />
+        element: <CallForParticipation />
     }
 ])
 
