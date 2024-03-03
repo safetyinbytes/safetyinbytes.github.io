@@ -11,7 +11,7 @@ const router = createBrowserRouter([
         element: <Index />
     },
     {
-        path: "/call-for-papers",
+        path: "/call-for-participation",
         element: <CallForPapers />
     }
 ])
