@@ -40,6 +40,7 @@ export const CallForParticipation = () => {
             setName('');
             setTopic('');
             setAbstract('');
+            setContent('');
             setExercise('');
             setEmail('');
         } else {
