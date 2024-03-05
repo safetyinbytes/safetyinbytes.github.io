@@ -15,7 +15,7 @@ export const Index = () => {
                     </p>
                     <div className="mt-4">
                         <Link to="/call-for-participation" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
-                            Registriere dich hier
+                            Idee einreichen
                         </Link>
                     </div>
                 </div>

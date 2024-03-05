@@ -23,6 +23,14 @@ export const CallForParticipation = () => {
         email.trim() !== ''
 
     const submit = async () => {
+        if(!isFormValid()) {
+            await Swal.fire({
+                title: "Fehler!",
+                text: "Das Formular konnte nicht gesendet werden, da nicht alle Daten angegeben wurden.",
+                icon: "error"
+            });
+            return;
+        }
         const message = `Name:\n${name}\n\nTopic:\n${topic}\n\nAbstract:\n${abstract}\n\nContent:\n${content}\n\nExercise:\n${exercise}\n\nEmail:\n${email}`;
         const requestBody = {
             captcha: turnstileToken,
@@ -56,7 +64,7 @@ export const CallForParticipation = () => {
         <div className="flex justify-center">
             <div className="my-8 w-1/2 flex flex-col gap-10 justify-center">
                 <div className="flex justify-center">
-                    <p className="text-center font-bold text-5xl leading-relaxed sm:leading-none">Call For <span
+                    <p className="text-center font-bold text-5xl leading-relaxed sm:leading-none">Call for <span
                         className="p-2 text-white rounded-xl bg-gradient-to-r from-purple-500 to-pink-500">Participation</span>
                     </p>
                 </div>
@@ -97,8 +105,8 @@ export const CallForParticipation = () => {
                                onVerify={(token, _) => setTurnstileToken(token)}/>
                 </div>
                 <div className="flex justify-center">
-                    <button disabled={false} onClick={submit}
-                            className="py-3 px-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-md disabled:bg-gray-200">
+                    <button onClick={submit}
+                            className="py-3 px-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-xl rounded-md">
                         Senden
                     </button>
                 </div>
