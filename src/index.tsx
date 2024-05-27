@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {CallForParticipation} from "./pages/CallForParticipation";
+import { createHashRouter, RouterProvider} from "react-router-dom";
 import {Index} from "./pages/Index";
+import {Speaker} from "./pages/Speaker";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <Index />
     },
     {
-        path: "call-for-participation",
-        element: <CallForParticipation />
+        path: "/speaker",
+        element: <Speaker />
     }
 ])
 
