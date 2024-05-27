@@ -14,8 +14,11 @@ export const Index = () => {
                         mitzugestalten.
                     </p>
                     <div className="mt-4">
-                        <Link to="/call-for-participation" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
+                        {/* <Link to="/call-for-participation" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
                             Idee einreichen
+                        </Link> */ }
+                        <Link to="/speaker" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
+                            Speaker
                         </Link>
                     </div>
                 </div>
