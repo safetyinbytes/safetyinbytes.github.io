@@ -4,6 +4,7 @@ import './index.css';
 import { createHashRouter, RouterProvider} from "react-router-dom";
 import {Index} from "./pages/Index";
 import {Speaker} from "./pages/Speaker";
+import {CallForParticipation} from "./pages/CallForParticipation";
 
 const router = createHashRouter([
     {
@@ -13,6 +14,10 @@ const router = createHashRouter([
     {
         path: "/speaker",
         element: <Speaker />
+    },
+    {
+        path: "/call-for-participation",
+        element: <CallForParticipation />
     }
 ])
 

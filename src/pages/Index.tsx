@@ -13,10 +13,10 @@ export const Index = () => {
                         und du hast die Möglichkeit einen Workshop im Bereich der IT-Sicherheit
                         mitzugestalten.
                     </p>
-                    <div className="mt-4">
-                        {/* <Link to="/call-for-participation" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
+                    <div className="mt-4 flex gap-4">
+                        <Link to="/call-for-participation" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
                             Idee einreichen
-                        </Link> */ }
+                        </Link>
                         <Link to="/speaker" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
                             Speaker
                         </Link>
