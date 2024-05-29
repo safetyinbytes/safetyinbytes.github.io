@@ -121,7 +121,7 @@ export const Speaker = () => {
                 </div>
 
                 <div className="w-3/4 bg-yellow-100 p-2 rounded-md">
-                    <p className="text-2xl">17:30 Uhr</p>
+                    <p className="text-2xl">17:00 Uhr</p>
                     <div className="border-gray-500 border-[1px] mb-2"></div>
                     <div className="leading-[0.8rem] mb-4">
                         <p className="text-2xl font-bold">JN</p>
