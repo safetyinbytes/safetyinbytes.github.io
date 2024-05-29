@@ -32,9 +32,8 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "pnpm run build && gh-pages -d build",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
     "start": "react-scripts start"
   },
   "version": "0.1.0"
