@@ -37,10 +37,6 @@ export const Speaker = () => {
                         <p className="text-md">Sprecher der SPD-Landtagsfraktion für Digitales und Innovation sowie für
                             Wissenschaft und Kultur</p>
                     </div>
-                    <div className="leading-[0.8rem] mb-4">
-                        <p className="text-2xl font-bold">Rodan Zeybek</p>
-                        <p className="text-md">Sprecher Jusos Darmstadt</p>
-                    </div>
                     <p className="text-xl font-medium leading-[1.7rem]">
                         Podiumsdiskussion
                     </p>
@@ -83,16 +79,12 @@ export const Speaker = () => {
                 <div className="w-3/4 bg-yellow-100 p-2 rounded-md">
                     <p className="text-2xl">14:00 Uhr</p>
                     <div className="border-gray-500 border-[1px] mb-2"></div>
-                    <div className="leading-[0.9rem] mb-2">
-                        <p className="text-2xl font-bold">Christian Dicke</p>
-                        <p className="text-md">AWADO Wirtschaftsprüfung</p>
-                    </div>
                     <div className="leading-[0.8rem] mb-4">
                         <p className="text-2xl font-bold">Silas Kämpchen</p>
                         <p className="text-md">AWADO Wirtschaftsprüfung</p>
                     </div>
                     <p className="text-xl font-medium leading-[1.7rem]">
-                        NIS 2 Compliance
+                        NIS-2-Richtlinie
                     </p>
                 </div>
 
