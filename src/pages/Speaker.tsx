@@ -10,10 +10,10 @@ export const Speaker = () => {
                     <div className="border-gray-500 border-[1px] mb-2"></div>
                     <div className="leading-[0.8rem] mb-4">
                         <p className="text-2xl font-bold">Peter Wilfahrt</p>
-                        <p className="text-md">CISO der IHK Oberfranken Bayreuth</p>
+                        <p className="text-md">Chief Digital Officer der IHK Oberfranken Bayreuth</p>
                     </div>
                     <p className="text-xl font-medium leading-[1.7rem] mb-2">
-                        Phishing und Awareness für KMU am Beispiel einer eigenen Kampagne
+                        Phishing und Awareness für KMU: einer klickt immer!
                     </p>
                     <span className="bg-gray-300 px-2 py-1 rounded-full">remote</span>
                 </div>
