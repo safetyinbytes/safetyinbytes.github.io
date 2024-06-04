@@ -113,7 +113,7 @@ export const Speaker = () => {
                     <p className="text-2xl">17:00 Uhr</p>
                     <div className="border-gray-500 border-[1px] mb-2"></div>
                     <div className="leading-[0.8rem] mb-4">
-                        <p className="text-2xl font-bold">JN</p>
+                        <p className="text-2xl font-bold">J. Neuschäfer</p>
                         <p className="text-md">CCC Aachen</p>
                     </div>
                     <p className="text-xl font-medium leading-[1.7rem]">
