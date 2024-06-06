@@ -105,7 +105,7 @@ export const Speaker = () => {
                             <p className="text-md">Fraunhofer FKIE & Universität Bonn / Junge Wissenschaft GI</p>
                         </div>
                         <p className="text-xl font-medium leading-[1.7rem]">
-                            Threat Intelligence und Supply Chain Sicherheit
+                            Software Supply Chain Sicherheit
                         </p>
                     </div>
                 </div>
