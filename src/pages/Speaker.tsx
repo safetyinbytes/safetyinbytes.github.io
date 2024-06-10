@@ -7,7 +7,9 @@ export const Speaker = () => {
                 </p>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/peter-wilfahrt.jpg" className="w-64 h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/peter-wilfahrt.jpg" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">9:00 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -23,7 +25,10 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/blank-profile-picture.svg" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/bijan-kaffenberger.jpg" />
+                        <span>Fotograf: Maximilian König</span>
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">10:00 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -45,7 +50,9 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/deborah-fleischhut.jpg" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/deborah-fleischhut.jpg" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">11:30 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -60,7 +67,9 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/pascal-peinecke.webp" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/pascal-peinecke.webp" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">12:00 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -81,7 +90,9 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/blank-profile-picture.svg" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/blank-profile-picture.svg" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">14:00 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -96,7 +107,9 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/marc-ohm.png" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/marc-ohm.png" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">15:00 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -118,7 +131,9 @@ export const Speaker = () => {
 
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/moritz-moser.jpg" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/moritz-moser.jpg" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">16:30 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -133,7 +148,9 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/blank-profile-picture.svg" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/blank-profile-picture.svg" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">17:00 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
@@ -148,7 +165,9 @@ export const Speaker = () => {
                 </div>
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <img src="/speaker/blank-profile-picture.svg" className="h-64" />
+                    <div className="h-64 aspect-square">
+                        <img src="/speaker/jakub-andrzejewski.jpg" />
+                    </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">17:30 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
