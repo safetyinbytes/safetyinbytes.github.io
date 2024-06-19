@@ -98,7 +98,7 @@ export const Speaker = () => {
                         <div className="border-gray-500 border-[1px] mb-2"></div>
                         <div className="leading-[0.8rem] mb-4">
                             <p className="text-2xl font-bold">Silas Kämpchen</p>
-                            <p className="text-md">AWADO Wirtschaftsprüfung</p>
+                            <p className="text-md">AWADO GmbH WPG StBG</p>
                         </div>
                         <p className="text-xl font-medium leading-[1.7rem]">
                             Beitrag der NIS2-Richtlinie zur digitalen Souveränität in Deutschland
