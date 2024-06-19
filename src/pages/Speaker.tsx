@@ -38,7 +38,7 @@ export const Speaker = () => {
                                 Wissenschaft und Kultur</p>
                         </div>
                         <p className="text-xl font-medium leading-[1.7rem]">
-                            Podiumsdiskussion
+                            Podiumsdiskussion, t.b.a.
                         </p>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ export const Speaker = () => {
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
                     <div className="h-64 aspect-square">
-                        <img src="/speaker/blank-profile-picture.svg" />
+                        <img src="/speaker/silas-kaempchen.jpg" />
                     </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">14:00 Uhr</p>
@@ -101,7 +101,7 @@ export const Speaker = () => {
                             <p className="text-md">AWADO Wirtschaftsprüfung</p>
                         </div>
                         <p className="text-xl font-medium leading-[1.7rem]">
-                            NIS-2-Richtlinie
+                            Beitrag der NIS2-Richtlinie zur digitalen Souveränität in Deutschland
                         </p>
                     </div>
                 </div>
