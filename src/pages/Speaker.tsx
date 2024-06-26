@@ -37,9 +37,10 @@ export const Speaker = () => {
                             <p className="text-md">Sprecher der SPD-Landtagsfraktion für Digitales und Innovation sowie für
                                 Wissenschaft und Kultur</p>
                         </div>
-                        <p className="text-xl font-medium leading-[1.7rem]">
-                            Podiumsdiskussion, t.b.a.
+                        <p className="text-xl font-medium leading-[1.7rem] mb-2">
+                            Cybersicherheit an Hochschulen – Forschung, Resilienz und politische Handlungsbedarfe
                         </p>
+                        <span className="bg-yellow-200 px-2 py-1 rounded-full">Podiumsdiskussion</span>
                     </div>
                 </div>
 
