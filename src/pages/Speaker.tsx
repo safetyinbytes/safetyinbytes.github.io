@@ -109,6 +109,7 @@ export const Speaker = () => {
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
                     <div className="h-64 aspect-square">
                         <img src="/speaker/marc-ohm.png" />
+                        <span>© Max Waidhas</span>
                     </div>
                     <div className="p-2 rounded-md w-full">
                         <p className="text-2xl">15:00 Uhr</p>
