@@ -9,9 +9,7 @@ export const Index = () => {
                     <p className="text-xl font-bold">Hochschule RheinMain Wiesbaden</p>
                     <p className="text-xl font-bold">26.09.2024</p>
                     <p className="text-xl leading-relaxed lg:w-1/2 px-12 text-justify lg:text-start lg:p-0">
-                        Dieses Jahr findet das nächste Informatik Festival der GI statt
-                        und du hast die Möglichkeit einen Workshop im Bereich der IT-Sicherheit
-                        mitzugestalten.
+                        Dein Workshop auf dem Informatik Festival 2024: IT-Security am Puls der Zeit. Für junge Menschen und mit Top-Speakern aus Wirtschaft, Politik und Wissenschaft.
                     </p>
                     <div className="mt-4 flex gap-4 px-12 lg:p-0">
                         <Link to="/speaker" className="text-white p-2 text-xl rounded-md bg-gradient-to-r from-purple-500 to-pink-500">
