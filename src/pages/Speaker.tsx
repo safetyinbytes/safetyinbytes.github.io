@@ -52,6 +52,24 @@ export const Speaker = () => {
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
                     <div className="h-64 aspect-square">
+                        <img src="/speaker/jakub-andrzejewski.jpg" />
+                    </div>
+                    <div className="p-2 rounded-md w-full">
+                        <p className="text-2xl">17:30 Uhr</p>
+                        <div className="border-gray-500 border-[1px] mb-2"></div>
+                        <div className="leading-[0.8rem] mb-4">
+                            <p className="text-2xl font-bold">Jakub Andrzejewski</p>
+                            <p className="text-md">Nuxt Insider</p>
+                        </div>
+                        <p className="text-xl font-medium leading-[1.7rem] mb-2">
+                            Permissions Policy API
+                        </p>
+                        <span className="bg-yellow-200 px-2 py-1 rounded-full">remote</span>
+                    </div>
+                </div>
+
+                {/* <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
+                    <div className="h-64 aspect-square">
                         <img src="/speaker/deborah-fleischhut.jpg" />
                     </div>
                     <div className="p-2 rounded-md w-full">
@@ -65,7 +83,7 @@ export const Speaker = () => {
                             Gamification für höhere Informationssicherheit in KMU
                         </p>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
                     <div className="h-64 aspect-square">
@@ -163,24 +181,6 @@ export const Speaker = () => {
                         <p className="text-xl font-medium leading-[1.7rem]">
                             Flash Tracing
                         </p>
-                    </div>
-                </div>
-
-                <div className="flex flex-col lg:flex-row bg-gray-200 gap-2 w-full items-center">
-                    <div className="h-64 aspect-square">
-                        <img src="/speaker/jakub-andrzejewski.jpg" />
-                    </div>
-                    <div className="p-2 rounded-md w-full">
-                        <p className="text-2xl">17:30 Uhr</p>
-                        <div className="border-gray-500 border-[1px] mb-2"></div>
-                        <div className="leading-[0.8rem] mb-4">
-                            <p className="text-2xl font-bold">Jakub Andrzejewski</p>
-                            <p className="text-md">Nuxt Insider</p>
-                        </div>
-                        <p className="text-xl font-medium leading-[1.7rem] mb-2">
-                            Permissions Policy API
-                        </p>
-                        <span className="bg-yellow-200 px-2 py-1 rounded-full">remote</span>
                     </div>
                 </div>
             </div>
