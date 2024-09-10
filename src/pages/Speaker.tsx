@@ -55,7 +55,7 @@ export const Speaker = () => {
                         <img src="/speaker/jakub-andrzejewski.jpg" />
                     </div>
                     <div className="p-2 rounded-md w-full">
-                        <p className="text-2xl">17:30 Uhr</p>
+                        <p className="text-2xl">11:30 Uhr</p>
                         <div className="border-gray-500 border-[1px] mb-2"></div>
                         <div className="leading-[0.8rem] mb-4">
                             <p className="text-2xl font-bold">Jakub Andrzejewski</p>
