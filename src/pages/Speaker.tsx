@@ -38,7 +38,7 @@ export const Speaker = () => {
                                 Wissenschaft und Kultur</p>
                         </div>
                         <p className="text-xl font-medium leading-[1.7rem] mb-2">
-                            Cybersicherheit an Hochschulen – Forschung, Resilienz und politische Handlungsbedarfe
+                            IT-Sicherheit im Wandel: Politische, akademische und praktische Perspektiven
                         </p>
                         <span className="bg-yellow-200 px-2 py-1 rounded-full">Podiumsdiskussion</span>
                     </div>
